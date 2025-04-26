@@ -1,6 +1,7 @@
 from Crawling_support.Pen_Fun_Pavilion import Pen_Fun_Pavilion_main
 import os
 
+
 filename = '小说.txt'
 def save_chapter(title, content, filename):
     with open(filename, 'a', encoding='UTF-8') as f:
